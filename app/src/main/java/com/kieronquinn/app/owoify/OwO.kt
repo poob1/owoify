@@ -19,61 +19,19 @@ class OwO : IXposedHookZygoteInit {
     companion object {
 
         val prefixes = arrayOf(
-                "<3 ",
-                "0w0 ",
-                "H-hewwo?? ",
-                "HIIII! ",
-                "Haiiii! ",
-                "Huohhhh. ",
-                "OWO ",
-                "OwO ",
-                "UwU "
+                ""
+
         )
 
         val suffixes = arrayOf(
-                " :3",
-                " UwU",
-                " (✿ ♡‿♡)",
-                " ÙωÙ",
-                " ʕʘ‿ʘʔ",
-                " ʕ•̫͡•ʔ",
-                " >_>",
-                " ^_^",
-                "..",
-                " Huoh.",
-                " ^-^",
-                " ;_;",
-                " ;-;",
-                " xD",
-                " x3",
-                " :D",
-                " :P",
-                " ;3",
-                " XDDD",
-                ", fwendo",
-                " ㅇㅅㅇ",
-                " (人◕ω◕)",
-                "（＾ｖ＾）",
-                " x3",
-                " ._.",
-                " (　\"◟ \")",
-                " (• o •)",
-                " (；ω；)",
-                " (◠‿◠✿)",
-                " >_<"
+                "etta",
+                "detta"
+              
         )
 
         val substitutions = mapOf(
-                Pair("r", "w"),
-                Pair("l", "w"),
-                Pair("R", "W"),
-                Pair("L", "W"),
-                Pair("no", "nu"),
-                Pair("has", "haz"),
-                Pair("have", "haz"),
-                Pair("you", "uu"),
-                Pair("the ", "da "),
-                Pair("The ", "Da ")
+                Pair("", ""),
+                
         )
     }
 
